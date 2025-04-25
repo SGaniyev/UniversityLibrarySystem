@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
+using UniversityLibrarySystem.Features.BookService;
 using UniversityLibrarySystem.Infratstructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IBookService, BookService>();
 
 //PostgreSQL uchun Entity Framework Core konfiguratsiyasi 
 builder.Services.AddDbContext<AppDbContext>(options =>

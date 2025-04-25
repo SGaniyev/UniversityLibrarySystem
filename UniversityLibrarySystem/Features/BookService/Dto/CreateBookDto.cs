@@ -1,7 +1,6 @@
-﻿namespace UniversityLibrarySystem.Models;
-using System.Collections.Generic;
+﻿namespace UniversityLibrarySystem.Features.BookService.Dto;
 
-public class Book
+public class CreateBookDto
 {
     public int Id { get; set; }
     public string Title  { get; set; }
@@ -12,10 +11,4 @@ public class Book
     public int SectionId { get; set; }
     public int PublisherYear  { get; set; }
     public int AvalableCopies  { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public Category Category { get; set; }
-    public Department Department { get; set; }
-    public Section Section { get; set; }
-    public ICollection<Loan> Loans { get; set; }
-
 }

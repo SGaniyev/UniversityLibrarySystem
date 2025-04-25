@@ -1,0 +1,14 @@
+﻿@using UniversityLibrarySystem.Features.BookService
+@model List<UniversityLibrarySystem.Features.BookService.Dto.GetBookDto>
+@inject IBookService BookService;
+
+@{
+    Layout = "_Layout";
+    var books = await BookService.GetAll();
+}
+
+@foreach (var book in books)
+{
+    <h1>@(book.Title)</h1>
+}
+    

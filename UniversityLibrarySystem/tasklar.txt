@@ -1,0 +1,62 @@
+﻿1-hafta: Loyihani boshlash va asosiy struktura yaratish
+Kun 1-3: Loyihani yaratish va bazaviy sozlamalar
+
+Visual Studioni o'rnating va yangi ASP.NET Core MVC loyihasini yaratish.
+
+Loyihada kerakli kutubxonalarni va paketlarni o'rnatish (masalan, EntityFramework, Identity, SQL Server).
+
+appsettings.json faylini sozlash (ma'lumotlar bazasi ulanishi).
+
+Kun 4-5: Ma'lumotlar bazasi tuzilmasini yaratish
+
+Ma'lumotlar bazasini yaratish va kutubxona uchun kerakli jadval strukturasini ishlab chiqish.
+
+Books, Users, BorrowedBooks, Authors, Categories kabi asosiy jadvallarni yaratish.
+
+Entity Framework yordamida ma'lumotlar bazasi modelini yaratish.
+
+Kun 6-7: CRUD amallarini yaratish
+
+Kitoblar (Books) jadvali uchun CRUD (Create, Read, Update, Delete) operatsiyalarini yaratish:
+
+Kitoblar ro'yxatini ko'rsatish.
+
+Yangi kitob qo'shish, tahrirlash va o'chirish formalarini yaratish.
+
+2-hafta: Autentifikatsiya, avtorlash va qo'shimcha funksiyalar
+Kun 8-9: Autentifikatsiya va avtorizatsiya
+
+ASP.NET Core Identity yordamida autentifikatsiya tizimini sozlash.
+
+Foydalanuvchilarni yaratish (admin, o'qituvchi, talabalar).
+
+Login va register sahifalarini yaratish.
+
+Password qayta tiklash va email orqali tasdiqlash.
+
+Kun 10-11: Foydalanuvchilarni boshqarish va rollar
+
+Foydalanuvchi rollarini (admin, talaba, kutubxona xodimi) yaratish va unga qarab ruxsatlarni boshqarish.
+
+Rollarga ko'ra foydalanuvchilarni boshqarish imkoniyatlarini yaratish (masalan, talaba faqat kitoblarni qarzga olish mumkin, admin esa barcha kitoblarni boshqarishi mumkin).
+
+Kun 12: Kitoblarni qarzga olish va qaytarish
+
+Foydalanuvchilar kitoblarni qarzga olish uchun sahifa yaratish va amallarni yozish.
+
+Kitobni qarzga olish, kitobni qaytarish.
+
+Kitobning qarzga olish muddati va kechikkanligi haqida ma'lumot ko'rsatish.
+
+Kun 13-14: Boshqa funksiyalar va yakunlash
+
+Kitoblar uchun qidiruv tizimini yaratish.
+
+Ruxsatlarni, hatolarni va maxfiylikni tekshirish.
+
+Testlarni yozish va tizimni yakunlash.
+
+Qo'shimcha maslahatlar:
+Har bir amaliyot uchun testlar yozish va kodni tozalash.
+
+Tizimni ishlab chiqqaningizdan so'ng, uni lokal serverda yoki Azure platformasida joylashtirishni o'rganing.
